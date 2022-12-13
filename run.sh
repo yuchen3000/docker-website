@@ -7,7 +7,7 @@ cat << EOF > /etc/xray/config.json
   },
   "inbounds": [
     {
-      "port": 443,
+      "port": 8000,
       "protocol": "VLESS",
       "settings": {
         "clients": [
